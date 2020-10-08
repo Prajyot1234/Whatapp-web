@@ -1,0 +1,43 @@
+.chats{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(240, 237, 237);
+    color: rgb(39, 38, 38);
+}
+.chats:hover{
+    background-color: #F5F5F5;
+}
+.chat_info{
+    margin-left: 12px;  
+}
+
+.chat_room_name{
+    font-weight: 500;
+}
+
+.chat_room_msg{
+    font-size: 14px;
+}
+
+.Chatsh3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.AddnewChat{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(240, 237, 237);
+    color: rgb(39, 38, 38);
+    padding: 13px;
+    /* margin-left: 10px; */
+}
+
+.NewChat{
+    margin-left: 10px;
+}
+
+.AddnewChat:hover{
+    background-color: #F5F5F5;
+}

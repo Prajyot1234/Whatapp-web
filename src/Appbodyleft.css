@@ -1,0 +1,67 @@
+
+.Appleft_header{
+    display: flex;
+    padding: 7px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Appleft_header_info > p{
+    margin-left: 10px;
+}
+
+.Appleft_header_avatar{
+    margin-left: 3px;
+}
+
+.Appleft_header_info{
+    display: flex;
+    align-items: center;
+}
+
+.Appleft_searchbar{
+    display: flex;
+    background-color: #f6f6f6;
+    align-items: center;
+    color: grey;
+    padding: 6px;
+}
+
+.searchbar > input {
+    border: none;
+    outline: none;
+    color: rgb(92, 90, 90);
+    width: 80%;
+    margin-left: 8px;
+}
+
+a{
+    text-decoration: none!important;
+    color: black;
+}
+
+.searchbar{
+    display: flex;
+    background-color: #FFFFFF;
+    flex: 1;
+    padding: 4px;
+    border-radius: 14px;
+}
+
+.Appleft{
+    flex: 0.35;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    border-right: 1px solid rgb(221, 218, 218);
+}
+
+.Appleft_chat{
+    flex: 1;
+    background-color: #FFFFFF;
+    overflow: scroll;
+}
+
+.Appleft_chat::-webkit-scrollbar{
+    display: none;
+}

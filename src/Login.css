@@ -1,0 +1,41 @@
+.login_page{
+    display: grid;
+    place-items: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSAfssZ6DL1LeK7ne23XVRuc69XVTJmn1p10w&usqp=CAU"); 
+}
+.Login_page_box{
+    border: 1px solid grey;
+    padding: 70px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 40px 5px rgba(0, 0, 0, 0.5);
+}
+
+.login_page_h1{
+    background: linear-gradient(to right, #f38021, 
+    #746464, #4278db, #30db38); 
+   -webkit-text-fill-color: transparent; 
+   -webkit-background-clip: text;
+   margin-bottom: 20px; 
+}
+
+.login_page_h2{
+    margin-bottom: 25px;
+    color: rgb(129, 128, 128);
+}
+
+.Login_page_button{
+    background-color: rgb(180, 174, 174)!important;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Login_page_button:hover{
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(191, 194, 191)!important;
+}

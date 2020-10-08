@@ -1,0 +1,109 @@
+.Appright{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.Appright_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    border-bottom: 1px solid rgb(231, 230, 230);
+}
+
+.Appright_header_info{
+    display: flex;
+    margin-left: 4px;
+}
+
+.room_name{
+    font-weight: 500;
+    text-decoration: none;
+}
+.room_info{
+    margin-left: 10px;
+}
+.room_msg{
+    font-size: 14px;
+    text-decoration: none!important;
+}
+.moreIcon{
+    margin-right: 4px;
+}
+
+.form_input{
+    display: flex;
+    flex: 1;
+}
+.Appright_body{
+    /* "https://tse1.mm.bing.net/th?id=OIP.l5TYSNKTb0MiTdGteAvbTAAAAA&pid=Api&P=0&w=300&h=300" */
+    background: url("https://tse1.mm.bing.net/th?id=OIP.l5TYSNKTb0MiTdGteAvbTAAAAA&pid=Api&P=0&w=1600&h=1200") ;
+    background-repeat: repeat;
+    background-position: center;
+    padding:  30px;
+    overflow: scroll;
+    flex: 1;
+}
+
+.Appright_body::-webkit-scrollbar{
+    display: none;
+}
+
+.Appright_footer{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+}
+
+.Appright_footer_input{
+    flex: 1;
+}
+
+.input_msg{
+    display: flex;
+    background-color: #FFFFFF; 
+    flex: 1;
+    padding: 2px;
+    border-radius: 14px;
+}
+
+.input_msg > button {
+    display: none;
+}
+
+.msg_input{
+    border: none;
+    outline: none;
+    color: rgb(92, 90, 90);
+    flex: 1;
+    margin-left: 8px;
+    /* padding: 8px; */
+}
+
+.chat_msg_sender{
+    margin-left: auto;
+    background-color: #dcf8c6!important;
+}
+
+.msg_decoration{
+    background-color: white;
+    width: fit-content;
+    position: relative;
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 9px;
+}
+
+.msg_author{
+    position: absolute;
+    margin-top: -21px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.msg_time{
+    font-size: xx-small;
+    margin-left: 14px;
+    font-weight: 500;
+    color: grey;
+}
